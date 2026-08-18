@@ -66,7 +66,6 @@ export const Header: React.FC = () => {
                   onClick={(e) => handleNavClick(e, link.href)}
                 >
                   {link.label}
-                  {link.isHighlight && <span className={styles.badgePulse}>Расчет 3 мин</span>}
                 </a>
               </li>
             ))}
