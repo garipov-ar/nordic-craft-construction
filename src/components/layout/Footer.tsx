@@ -24,7 +24,7 @@ export const Footer: React.FC = () => {
             </p>
             <div className={styles.licenseBadge}>
               <ShieldCheck size={18} className={styles.shieldIcon} />
-              <span>Член ассоциации СРО (№ СРО-С-284-17072017)</span>
+              <span>Член ассоциации СРО (№ СРО-С-000-00000000)</span>
             </div>
           </div>
 
@@ -59,19 +59,19 @@ export const Footer: React.FC = () => {
             <div className={styles.contactItem}>
               <Phone size={18} className={styles.contactIcon} />
               <div>
-                <a href="tel:+74958224512" className={styles.contactPhone}>+7 (495) 822-45-12</a>
+                <a href="tel:+78000000000" className={styles.contactPhone}>+7 (800) 000-00-00</a>
                 <p className={styles.contactSub}>Ежедневно с 09:00 до 21:00</p>
               </div>
             </div>
 
             <div className={styles.contactItem}>
               <Mail size={18} className={styles.contactIcon} />
-              <a href="mailto:info@nordic-craft.ru" className={styles.footerLink}>info@nordic-craft.ru</a>
+              <a href="mailto:demo@nordic-craft.example" className={styles.footerLink}>demo@nordic-craft.example</a>
             </div>
 
             <div className={styles.contactItem}>
               <MapPin size={18} className={styles.contactIcon} />
-              <span>Москва, Пресненская наб., 12 (Башня Федерация Восток, офис 3402)</span>
+              <span>Москва, ул. Архитекторов, 10 (Демо-офис)</span>
             </div>
 
             <div className={styles.socialButtons}>
@@ -92,7 +92,7 @@ export const Footer: React.FC = () => {
         {/* Bottom Bar */}
         <div className={styles.bottomBar}>
           <div className={styles.copyright}>
-            © {new Date().getFullYear()} ООО «Нордик Крафт Архитектура». Все права защищены.
+            © {new Date().getFullYear()} ООО «Нордик Крафт» (Портфолио-проект). Все права защищены.
           </div>
           <div className={styles.legalLinks}>
             <a href="#" className={styles.legalLink}>Политика конфиденциальности</a>

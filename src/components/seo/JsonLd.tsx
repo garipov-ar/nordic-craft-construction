@@ -8,13 +8,13 @@ export const JsonLd: React.FC = () => {
     image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c',
     description:
       'Проектирование и капитальное строительство энергоэффективных домов под ключ со скандинавским характером. Фиксированная смета, гарантия 10 лет.',
-    telephone: '+74958224512',
-    email: 'info@nordic-craft.ru',
+    telephone: '+78000000000',
+    email: 'demo@nordic-craft.example',
     address: {
       '@type': 'PostalAddress',
-      streetAddress: 'Пресненская наб., 12, офис 3402',
+      streetAddress: 'ул. Архитекторов, 10',
       addressLocality: 'Москва',
-      postalCode: '123112',
+      postalCode: '101000',
       addressCountry: 'RU',
     },
     priceRange: '44000RUB - 95000RUB per m2',

@@ -75,9 +75,9 @@ export const Header: React.FC = () => {
         {/* Contacts & Quick CTA */}
         <div className={styles.actions}>
           <div className={styles.phoneBlock}>
-            <a href="tel:+74958224512" className={styles.phoneLink}>
+            <a href="tel:+78000000000" className={styles.phoneLink}>
               <Phone size={16} className={styles.phoneIcon} />
-              <span>+7 (495) 822-45-12</span>
+              <span>+7 (800) 000-00-00</span>
             </a>
             <div className={styles.statusBadge}>
               <span className={styles.statusDot} />
@@ -128,8 +128,8 @@ export const Header: React.FC = () => {
             </ul>
 
             <div className={styles.mobileContactBox}>
-              <a href="tel:+74958224512" className={styles.mobilePhone}>
-                +7 (495) 822-45-12
+              <a href="tel:+78000000000" className={styles.mobilePhone}>
+                +7 (800) 000-00-00
               </a>
               <p className={styles.mobileWorkTime}>Пн-Вс: 09:00 – 21:00 (Без выходных)</p>
               <Button
